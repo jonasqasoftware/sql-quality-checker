@@ -1,5 +1,13 @@
 # SQL Quality Checker
 
+<p align="center">
+  <img src="docs/brand/social-preview.png" alt="Jonas Davila: engenharia de qualidade com evidência, clareza e método" width="100%">
+</p>
+
+[![CI](https://github.com/jonasqasoftware/sql-quality-checker/actions/workflows/quality.yml/badge.svg)](https://github.com/jonasqasoftware/sql-quality-checker/actions/workflows/quality.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-1e2024.svg)](LICENSE) [![Jonas Davila](https://img.shields.io/badge/portfolio-jonasdavila.com.br-a8432f.svg)](https://jonasdavila.com.br/en/)
+
+> **In English:** A Quality Engineering lab that runs e-commerce business rules as SQL against a synthetic SQLite database and produces CSV and HTML inconsistency reports. Python standard library only.
+
 > Projeto de automação de validações de qualidade de dados usando SQL. Simula regras de negócio de um e-commerce e identifica inconsistências que podem afetar clientes, faturamento e relatórios.
 
 O SQL Quality Checker é um laboratório de Engenharia de Qualidade que executa regras de negócio diretamente em um banco SQLite sintético e produz relatórios CSV e HTML revisáveis. Ele demonstra como SQL pode transformar riscos de dados em verificações automáticas, sem afirmar que os dados ou os resultados representam um ambiente de produção.
